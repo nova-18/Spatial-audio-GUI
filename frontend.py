@@ -3,6 +3,7 @@ import os
 import shutil
 import subprocess
 import time
+import sys
 
 # Folders
 UPLOAD_FOLDER = "in_sound"
@@ -110,7 +111,7 @@ if st.button("Run Audio Processing"):
         file_name = os.path.basename(st.session_state.file_path)  # Extract just the filename like '123.wav'
         result = subprocess.run(
             [
-                "f{sys.executable}", "backend.py",
+                f"{sys.executable}", "backend.py",
                 "--azimuth", str(azimuth),
                 "--elevation", str(elevation),
                 "--file_name", file_name,
