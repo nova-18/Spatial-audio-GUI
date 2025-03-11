@@ -110,7 +110,7 @@ if st.button("Run Audio Processing"):
         file_name = os.path.basename(st.session_state.file_path)  # Extract just the filename like '123.wav'
         result = subprocess.run(
             [
-                "python3", "backend.py",
+                "f{sys.executable}", "backend.py",
                 "--azimuth", str(azimuth),
                 "--elevation", str(elevation),
                 "--file_name", file_name,
