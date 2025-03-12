@@ -26,13 +26,15 @@ Setup Instructions:
 
 ### For Linux/macOS:
 1. **Clone the repository:**
+```
 git clone https://github.com/nova-18/Spatial-audio-gui.git
 cd Spatial-audio-gui
-
+```
 
 2. **Create a virtual environment using Python 3.12:**
+```
 python3.12 -m venv .venv
-
+```
 
 3. **Activate the virtual environment:**
 - On macOS/Linux:
@@ -41,8 +43,9 @@ python3.12 -m venv .venv
   ```
 
 4. **Install Python dependencies:**
+```
 pip install -r requirements.txt
-
+```
 
 5. **Install system-level dependencies:**
 - For Ubuntu/Debian-based systems:
@@ -61,12 +64,14 @@ streamlit run frontend.py
 
 ### For Windows:
 1. **Clone the repository:**
+```
 git clone https://github.com/nova-18/Spatial-audio-gui.git
 cd Spatial-audio-gui
-
+```
 2. **Create a virtual environment using Python 3.12:**
+```
 python3.12 -m venv .venv
-
+```
 3. **Activate the virtual environment:**
 - For Command Prompt:
   ```
@@ -78,8 +83,9 @@ python3.12 -m venv .venv
   ```
 
 4. **Install Python dependencies:**
+```
 pip install -r requirements.txt
-
+```
 
 5. **Install system-level dependencies:**
 Windows does not use apt-get, so you’ll need to install the PortAudio library manually. You can:
@@ -91,8 +97,9 @@ Windows does not use apt-get, so you’ll need to install the PortAudio library 
 (Ensure that the PortAudio binaries are accessible by your system so that the sounddevice module can find them.)
 
 6. **Run the application:**
+```
 streamlit run frontend.py
-
+```
 Usage:
 -------
 - Open your web browser at the URL provided by Streamlit.
