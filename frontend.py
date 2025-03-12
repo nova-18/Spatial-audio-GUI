@@ -81,7 +81,7 @@ elevation = st.number_input(
     on_change=update_elevation
 )
 # File uploader
-uploaded_file = st.file_uploader("Upload an audio file", type=["wav", "mp3", "ogg", "aac", "mpeg"])
+uploaded_file = st.file_uploader("Upload an audio file", type=["wav", "mp3", "ogg"])
 
 # if uploaded_file is None and os.listdir(UPLOAD_FOLDER):
 #     for file in os.listdir(UPLOAD_FOLDER):
