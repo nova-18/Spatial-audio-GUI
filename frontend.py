@@ -92,7 +92,7 @@ uploaded_file = st.file_uploader("Upload an audio file", type=["wav", "mp3", "og
 # Download type selector
 download_type = st.selectbox(
     "Select download type",
-    ["wav", "ogg", "mp3", "mpeg", "aac"]
+    ["wav", "ogg", "mp3"]
 )
 
 # Save uploaded file
