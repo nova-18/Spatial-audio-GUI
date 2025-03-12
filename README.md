@@ -27,7 +27,7 @@ Setup Instructions:
 ### For Linux/macOS:
 1. **Clone the repository:**
 git clone https://github.com/nova-18/Spatial-audio-gui.git
-cd your-repo
+cd Spatial-audio-gui
 
 
 2. **Create a virtual environment using Python 3.12:**
@@ -62,7 +62,7 @@ streamlit run frontend.py
 ### For Windows:
 1. **Clone the repository:**
 git clone https://github.com/nova-18/Spatial-audio-gui.git
-cd your-repo
+cd Spatial-audio-gui
 
 2. **Create a virtual environment using Python 3.12:**
 python3.12 -m venv .venv
