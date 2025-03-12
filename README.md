@@ -111,5 +111,5 @@ Troubleshooting:
 
 License:
 ---------
-[Include your license information here]
+Follow the License File, Thank you !
 
